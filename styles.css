@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.sidebar{
+    background-color: #E9F7CA;
+    position: fixed;
+    left: 0%;
+    width: 100px;
+    height: 100%;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+   
+.sidebar span{
+    color: #717372;
+}
+
+
+.sidebar a{
+    color: #888C89;
+    display: block;
+    width: 100%;
+    line-height: 30%;
+    padding-left: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: initial;
+}
+
+
+.sidebar a:hover{
+    color: #5E5F5F;
+    background: #CDDDDC;
+}
+
+
+.fa-3x{
+    color: #40434E;
+    padding: 10%;
+}
+
+.fa-lg{
+    padding: 10%;
+}
+
+
+.horizontal{
+    padding-left: 10%;
+    padding-top: 10%;
+    height: 100%;
+    background-color: #E9F7CA;
+}
+
+
+.horizontal span{
+    color: #717372;
+}
+
+.horizontal span:hover{
+    color: #40434E;
+}
+
+.fa-caret-left{
+    color: #717372;
+    margin-right: 7px;
+}
+
+
+form{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+#default-text{
+    color: #717372;
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+p{
+    color: #40434E;
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+#file-upload{
+    color: #717372;
+}
+
+#file-upload:hover{
+    color: #40434E;
+}
+
+.btn{
+    height: 150px;
+    width: 150px;
+    background-color: #FFFAFF;
+    border: 0.5px #ccc;
+    border-width: 2px;
+}
